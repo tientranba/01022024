@@ -8,6 +8,8 @@ function moveToSubmit(event) {
 if (event.key === "Enter") {
   document.getElementById("submitBtn").click();
 }
+document.getElementById("loading").style.display = "block";
+
 }
 
 
@@ -18,8 +20,21 @@ function checkLogin() {
     // Kiểm tra thông tin đăng nhập (thay thế điều kiện này bằng thông tin thực của bạn)
     if (tenBe === 'ngocthao' && ngaySinhBe === '09012005') {
       // Chuyển hướng đến trang Google.com khi đăng nhập đúng
-      window.location.href = 'https://tientranba.github.io/02012024/';
-    } else {
+      window.location.href = 'https://tientranba.github.io/countlove/';
+    }
+    else if (tenBe === 'nguyenthingocthao' && ngaySinhBe === '09012005') {
+      // Chuyển hướng đến trang Google.com khi đăng nhập đúng
+      window.location.href = 'https://tientranba.github.io/countlove/';
+    }
+    else if (tenBe === 'thao' && ngaySinhBe === '09012005') {
+      // Chuyển hướng đến trang Google.com khi đăng nhập đúng
+      window.location.href = 'https://tientranba.github.io/countlove/';
+    }
+    else if (tenBe === 'batien' && ngaySinhBe === '28032005') {
+        // Chuyển hướng đến trang Google.com khi đăng nhập đúng
+      window.location.href = 'https://tientranba.github.io/countlove/';
+    }
+     else {
       alert('Có phải bồ tui khong đó???');
     }
   }
