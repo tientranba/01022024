@@ -8,8 +8,6 @@ function moveToSubmit(event) {
 if (event.key === "Enter") {
   document.getElementById("submitBtn").click();
 }
-document.getElementById("loading").style.display = "block";
-
 }
 
 
