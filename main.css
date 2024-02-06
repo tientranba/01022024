@@ -182,6 +182,7 @@ body {
 .animated-image1 {
   width: 200px;
   border-radius: 20px;
+  opacity: 0.93;
   animation: slideIn1 5s ease-out, subtleMovement 4s infinite alternate;
   transition: transform 0.3s, filter 0.3s;
 }
@@ -189,6 +190,7 @@ body {
 .animated-image2 {
   width: 210px;
   border-radius: 20px;
+  opacity: 0.93;
   animation: slideIn2 5s ease-out, subtleMovement 4s infinite alternate;
   transition: transform 0.3s, filter 0.3s;
 }
