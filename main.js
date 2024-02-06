@@ -10,7 +10,7 @@ function windowResized() {
 }
 
 function setup() {
-  // キャンバスの設定
+  
 	background(0);
   let canvas = document.getElementById('firework');
   let ctx = canvas.getContext('2d');
