@@ -141,7 +141,7 @@ body {
   padding: 0 20px;
 }
 
-.login .footer a {
+.login .footer a,p {
   color: #fff;
   text-decoration: none;
   text-align: center;
