@@ -184,7 +184,7 @@ body {
   border-radius: 20px;
   opacity: 0.93;
   animation: slideIn1 5s ease-out, subtleMovement 4s infinite alternate;
-  transition: transform 0.3s, filter 0.3s;
+  transition: transform 0.5s ease, filter 0.5s;
 }
 
 .animated-image2 {
@@ -192,11 +192,15 @@ body {
   border-radius: 20px;
   opacity: 0.93;
   animation: slideIn2 5s ease-out, subtleMovement 4s infinite alternate;
-  transition: transform 0.3s, filter 0.3s;
+  transition: transform 0.5s ease, filter 0.5s;
 }
 
-.animated-image1:hover,
+.animated-image1:hover {
+  transform: scale(0.1);
+  filter: brightness(1.2) drop-shadow(10px 10px 30px pink);  
+}
+
 .animated-image2:hover {
-  transform: scale(1.1);
-  filter: brightness(1.5);
+  transform: scale(2);
+  filter: brightness(1.2) drop-shadow(10px 10px 30px rgb(92, 193, 233));
 }
